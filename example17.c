@@ -10,7 +10,7 @@ void main()
 	printf("\n Enter temp in centigrade:");
 	scanf("%f",&centi);
 	
-	fah=9/5*(centi+32);
+	fah=(centi*9/5)+32;
 	
 	printf("\n Temp in fareinheits=%f",fah);
 }
