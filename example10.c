@@ -1,3 +1,5 @@
+//wap to input emp name and salary calculate DA and HRA 5% and 11% resp. print allowance and gross salary //
+
 #include<stdio.h>
 
 void main()
