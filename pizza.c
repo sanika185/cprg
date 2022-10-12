@@ -5,6 +5,12 @@ void main()
 	int choice,qtys,amount;
 	char size[20];
 	
+	printf("\n 1.Chocolate pizaa(250));
+	printf("\n 2.Extra cheesy pizza(350));
+	printf("\n 3.Tomato salsa pizza(150));
+	printf("\n 4.Extra spicy pizza(400));
+	printf("\n Olive and Herby pizza(550));
+	
 	printf("\n choice:");
 	scanf("%d",&choice);
 	printf("\n quantity:");
@@ -32,7 +38,7 @@ void main()
 				amount=550*qtys;
 				break;
 				
-     	}
+     	          }
 	}
 	switch (strcmp(size,"medium")==0)
 	{
